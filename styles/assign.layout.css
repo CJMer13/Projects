@@ -1,0 +1,113 @@
+@charset "utf-8";
+@font-face {
+	font-family: 'Font Theme';
+	src: url('../fonts/quicksand_regular\ -\ Copy.ttf') format('woff'),
+	url('../fonts/quicksand_regular\ -\ Copy.woff') format('truetype');
+	/* Add more font formats as needed for compatibility */
+  }
+/*
+   
+   WEBSITE Styles
+   Author: Carson Merrill
+   Date: 05/16/23
+   Filename: Websitestylesheet.css
+
+*/
+
+/* Apply font styles */
+body {
+  font-family: 'Font Theme';
+  font-size: 16px;
+}
+
+html {
+  background-color: hsl(148, 88%, 97%);
+}
+
+body {
+  background-color: hsl(150, 75%, 94%);
+  padding-bottom: 50px;
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 9px;
+  padding: 10px;
+  width: 150px;
+  display: block;
+}
+
+/* Layout Styles */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Font Theme';
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header styles */
+header {
+  background: rgba(150, 150, 150, 0.5);
+  border-bottom: solid 1px;
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header-text {
+  color: #fff;
+  font-family: 'Font Theme';
+  font-size: 32px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+  line-height: 120%;
+}
+
+/* Navigation styles */
+nav {
+  background-color: #4c4b4b;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+  text-align: center;
+  list-style-position: inside;
+}
+
+nav a {
+  color: #dcdcdc;
+}
+
+/* Footer styles */
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(54, 54, 54);
+  color: white;
+  text-align: center;
+  height: 50px;
+  margin-top: auto;
+}
+
+nav > ul > li > a:hover,
+nav > ul > li > a:active {
+  color: rgb(255, 64, 255);
+  text-decoration: underline;
+}
+
+ 
